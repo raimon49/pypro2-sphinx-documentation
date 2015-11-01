@@ -9,5 +9,10 @@ Sphinxを使ったドキュメント管理の学習用。
 
 （参考：『Pythonプロフェッショナルプログラミング第2版』）
 
+ホスティング先
+==============
+
+http://raimon49.github.io/pypro2-sphinx-documentation/
+
 TBD
 ===
