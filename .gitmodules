@@ -1,0 +1,4 @@
+[submodule "sw-project/_build/html"]
+	path = sw-project/_build/html
+	url = git@github.com:raimon49/pypro2-sphinx-documentation.git
+	branch = gh-pages
