@@ -35,8 +35,10 @@ http://raimon49.github.io/pypro2-sphinx-documentation/
         |-- sample.rst
         `-- src
 
-ビルド手順
-==========
+ビルド・更新手順
+================
+
+ホスティング先である[GitHub Pages](http://raimon49.github.io/pypro2-sphinx-documentation/)への反映手順。
 
 .. code-block:: bash
 
