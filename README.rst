@@ -38,7 +38,7 @@ http://raimon49.github.io/pypro2-sphinx-documentation/
 ビルド・更新手順
 ================
 
-ホスティング先である[GitHub Pages](http://raimon49.github.io/pypro2-sphinx-documentation/)への反映手順。
+ホスティング先である `GitHub Pages <http://raimon49.github.io/pypro2-sphinx-documentation/>` への反映手順。
 
 .. code-block:: bash
 
