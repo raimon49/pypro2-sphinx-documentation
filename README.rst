@@ -14,5 +14,42 @@ Sphinxを使ったドキュメント管理の学習用。
 
 http://raimon49.github.io/pypro2-sphinx-documentation/
 
-TBD
-===
+構成
+====
+
+::
+
+    |-- README.rst
+    |-- requirements.txt
+    `-- sw-project
+        |-- Makefile
+        |-- _build
+        |   |-- doctrees
+        |   `-- html       (gh-pages branch)
+        |-- _static
+        |-- _templates
+        |-- conf.py
+        |-- index.rst
+        |-- make.bat
+        |-- path.rst
+        |-- sample.rst
+        `-- src
+
+ビルド手順
+==========
+
+.. code-block:: bash
+
+    # HTMLファイルの更新
+    $ make html
+
+    # gh-pagesブランチへの反映
+    $ cd sw-project/_build/html
+    $ git -am 'Update documentation'
+    $ git push origin gh-pages
+
+    # submoduleの参照先をmasterブランチに反映
+    $ cd ../../..
+    $ git submodule update
+    $ git -am 'Update submodule commit'
+    $ git push origin master
