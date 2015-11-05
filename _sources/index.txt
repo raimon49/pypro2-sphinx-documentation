@@ -12,9 +12,10 @@ Contents:
    :maxdepth: 2
 
    sample
-   todo
-   path
 
+:doc:`path`
+
+:doc:`todo`
 
 
 Indices and tables
