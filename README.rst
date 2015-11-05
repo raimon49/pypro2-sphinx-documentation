@@ -52,6 +52,6 @@ http://raimon49.github.io/pypro2-sphinx-documentation/
 
     # submoduleの参照先をmasterブランチに反映
     $ cd ../../..
-    $ git submodule update
+    $ git add sw-project/_build/html
     $ git -am 'Update submodule commit'
     $ git push origin master
