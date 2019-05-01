@@ -51,11 +51,12 @@ http://raimon49.github.io/pypro2-sphinx-documentation/
 
     # gh-pagesブランチへの反映
     $ cd sw-project/_build/html
-    $ git -am 'Update documentation'
+    $ git checkout gh-pages
+    $ git commit -am 'Update documentation'
     $ git push origin gh-pages
 
     # submoduleの参照先をmasterブランチに反映
     $ cd ../../..
     $ git add sw-project/_build/html
-    $ git -am 'Update submodule commit'
+    $ git commit -am 'Update submodule commit'
     $ git push origin master
