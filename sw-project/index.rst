@@ -17,6 +17,8 @@ Contents:
 
 :doc:`todo`
 
+:doc:`markdown`
+
 
 Indices and tables
 ==================
