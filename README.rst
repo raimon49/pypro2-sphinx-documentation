@@ -5,6 +5,8 @@ Sphinxによるドキュメント管理
 .. image:: https://requires.io/github/raimon49/pypro2-sphinx-documentation/requirements.svg?branch=master
      :target: https://requires.io/github/raimon49/pypro2-sphinx-documentation/requirements/?branch=master
      :alt: Requirements Status
+.. image:: https://circleci.com/gh/raimon49/pypro2-sphinx-documentation.svg?style=svg
+    :target: https://circleci.com/gh/raimon49/pypro2-sphinx-documentation
 
 目的
 ====
