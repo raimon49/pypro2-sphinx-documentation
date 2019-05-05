@@ -58,6 +58,7 @@ http://raimon49.github.io/pypro2-sphinx-documentation/
     $ git push origin gh-pages
 
     # submoduleの参照先をmasterブランチに反映
+    $ git checkout master
     $ cd ../../..
     $ git add sw-project/_build/html
     $ git commit -am 'Update submodule commit'
