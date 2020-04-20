@@ -3,7 +3,7 @@ Babel==2.6.0
 certifi==2020.4.5.1
 chardet==3.0.4
 commonmark==0.9.1
-docutils==0.14
+docutils==0.16
 future==0.17.1
 idna==2.8
 imagesize==1.1.0
