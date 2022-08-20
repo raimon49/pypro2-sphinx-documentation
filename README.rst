@@ -7,6 +7,7 @@ Sphinxによるドキュメント管理
      :alt: Requirements Status
 .. image:: https://circleci.com/gh/raimon49/pypro2-sphinx-documentation.svg?style=svg
     :target: https://circleci.com/gh/raimon49/pypro2-sphinx-documentation
+    :alt: CircleCI Status
 
 目的
 ====
