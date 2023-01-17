@@ -2,11 +2,11 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/python:3.6
+      - image: circleci/python:3.9
     steps:
       - checkout
       - run: |
-          python3.6 -m venv venv
+          python3.9 -m venv venv
           source ./venv/bin/activate
           pip install -r requirements.txt
           cd sw-project && make html
