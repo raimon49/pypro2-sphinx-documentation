@@ -31,7 +31,7 @@ http://raimon49.github.io/pypro2-sphinx-documentation/
         |-- Makefile
         |-- _build
         |   |-- doctrees
-        |   `-- html       (gh-pages branch)
+        |   `-- html       (gh-pages branch as a submodule)
         |-- _static
         |-- _templates
         |-- conf.py
